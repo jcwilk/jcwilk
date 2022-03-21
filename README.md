@@ -1,10 +1,10 @@
-# List of hobby projects
-Very incomplete, but these are the most fun to play with. I will likely continuously update this list with fancier gifs and more thrilling descriptions.
-
 ### What I'm currently working on
 * Crypto research
 * Figuring out how to leverage fractals to make games without it being gimmicky
 * Procedural sound fiddlings
+
+# List of hobby projects
+Very incomplete, but these are the most fun to play with. I will likely continuously update this list with fancier gifs and more thrilling descriptions.
 
 ## Game prototypes (all in pico-8)
 ### ❤️ Material Girl ❤️
