@@ -6,7 +6,7 @@ Very incomplete, but these are the most fun to play with. I will likely continuo
 * Figuring out how to leverage fractals to make games without it being gimmicky
 * Procedural sound fiddlings
 
-## Game prototypes (all in Pico-8)
+## Game prototypes (all in pico-8)
 ### ❤️ Material Girl ❤️
 ![material_girl p8](https://user-images.githubusercontent.com/39782/159227267-e9732b5c-78aa-401a-a8a8-12e3e397bf11.png)
 
@@ -56,3 +56,12 @@ An expansion of Mandel2, this time with continuous iteration. While moving it st
 [![mandel4_zoom_loop](https://user-images.githubusercontent.com/39782/159221416-f011a2eb-9b13-4a5c-884b-21d152af6320.gif)](https://jcwilk.github.io/mandel4/?x=-1.3998553800531095&y=0&z=1254.8361126647887)
 
 [play](https://jcwilk.github.io/mandel4) [source](https://github.com/jcwilk/mandel4/blob/master/src/index.ts)
+
+### Mandel5 (pico-8)
+![mandel5 p8](https://user-images.githubusercontent.com/39782/159232271-7c8bb782-cf5c-4dbb-a19e-26e14c2904d2.png)
+
+I was curious about how to make multiple mandelbrot sets "collide" with each other, or how one might be able to link together many mandelbrot sets into a fractal field of sorts. This went through a lot of iterations. I started out trying to do a universal-law-of-gravity-inspired approach where each mandelbrot origin would all tug on orbits as they happened and with a lot of fudging I could get interesting results, but it didn't feel right because it was bastardizing how fractals work and the emergent shapes were too directly resultant from the arbitrary limits my code was imposing. Instead, eventually I settled on an interesting approach where it keeps track of a number of orbit possibilities and keeps testing them all as they fork and lead to new possibilities. The longest lasting hypothetical path ends up being the one counted. This leads to satisfyingly nuanced interactions between mandelbrot sets that are a good distance from each other. Below is a gif of moving one of three mandels back and forth, and then zooming in on the nuance of an overlap to see how it changes as the mandel continues to shift.
+
+![mandel5_1](https://user-images.githubusercontent.com/39782/159233775-bef88e64-6d37-4208-9163-c4ac8170c1fe.gif)
+
+[play](https://jcwilk.github.io/mandel5) [source](https://github.com/jcwilk/mandel5/blob/master/mandel5.p8)
