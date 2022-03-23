@@ -1,6 +1,6 @@
 ### What I'm currently working on
 * Crypto research
-* Figuring out how to leverage fractals to make games without it being gimmicky
+* Figuring out how to leverage fractals to make games without it being gimmicky (mandel5 currently)
 * Procedural sound fiddlings
 
 # List of hobby projects
@@ -58,10 +58,14 @@ An expansion of Mandel2, this time with continuous iteration. While moving it st
 [play](https://jcwilk.github.io/mandel4) [source](https://github.com/jcwilk/mandel4/blob/master/src/index.ts)
 
 ### Mandel5 (pico-8)
-![mandel5 p8](https://user-images.githubusercontent.com/39782/159232271-7c8bb782-cf5c-4dbb-a19e-26e14c2904d2.png)
+![mandel5 p8](https://user-images.githubusercontent.com/39782/159668858-00d73aad-cd84-4162-acb9-d5cbc421e73b.png)
 
 I was curious about how to make multiple mandelbrot sets "collide" with each other, or how one might be able to link together many mandelbrot sets into a fractal field of sorts. This went through a lot of iterations. I started out trying to do a universal-law-of-gravity-inspired approach where each mandelbrot origin would all tug on orbits as they happened and with a lot of fudging I could get interesting results, but it didn't feel right because it was bastardizing how fractals work and the emergent shapes were too directly resultant from the arbitrary limits my code was imposing. Instead, eventually I settled on an interesting approach where it keeps track of a number of orbit possibilities and keeps testing them all as they fork and lead to new possibilities. The longest lasting hypothetical path ends up being the one counted. This leads to satisfyingly nuanced interactions between mandelbrot sets that are a good distance from each other. Below is a gif of moving one of three mandels back and forth, and then zooming in on the nuance of an overlap to see how it changes as the mandel continues to shift.
 
 ![mandel5_1](https://user-images.githubusercontent.com/39782/159233775-bef88e64-6d37-4208-9163-c4ac8170c1fe.gif)
+
+Update: the difference between tracking only the orbit closest to its nearest origin vs tracking a pool of orbits for each iteration was pretty negligible, but there's a pretty huge difference in performance so I just set it to only track one orbit for now. Turns out another important thing was raising the max orbit range to be larger, still figuring out what the right size of it should be... Seems like somewhere around large enough to encompass the whole area of objects is ideal but scaling individual mandels up and down throws a bit of a wrench in that. Tried adjusting the max orbit range for each mandel but having too tight a range is just ugly and very unfractal-like. As-is it's coming together nicely, nearby fractals can be seen in the details of their neighbors sort of like a hall of mirrors. There's definitely some potential here for a really mind-bending game universe.
+
+![mandel5_6](https://user-images.githubusercontent.com/39782/159674754-f6a8cbe2-efc5-4f8b-b0e4-388fb19af324.gif)
 
 [play](https://jcwilk.github.io/mandel5) [source](https://github.com/jcwilk/mandel5/blob/master/mandel5.p8)
