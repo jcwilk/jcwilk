@@ -75,3 +75,4 @@ Basically a realtime/hires upgrade of Mandel5 into webgl, plus extra interactivi
 
 ![Screenshot from 2022-04-02 16-16-14](https://user-images.githubusercontent.com/39782/161404548-bf70c5ad-1edf-4069-8da7-6889ae6a411a.png)
 
+[play](https://jcwilk.github.io/mandel6) [source](https://github.com/jcwilk/mandel4/blob/master/src/index.ts)
