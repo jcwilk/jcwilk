@@ -1,6 +1,6 @@
 ### What I'm currently working on
 * Crypto research
-* Figuring out how to leverage fractals to make games without it being gimmicky (mandel5 currently)
+* Figuring out how to leverage fractals to make games without it being gimmicky (mandel6 currently)
 * Procedural sound fiddlings
 
 # List of hobby projects
@@ -69,3 +69,9 @@ Update: the difference between tracking only the orbit closest to its nearest or
 ![mandel5_6](https://user-images.githubusercontent.com/39782/159674754-f6a8cbe2-efc5-4f8b-b0e4-388fb19af324.gif)
 
 [play](https://jcwilk.github.io/mandel5) [source](https://github.com/jcwilk/mandel5/blob/master/mandel5.p8)
+
+### Mandel6 (webgl)
+Basically a realtime/hires upgrade of Mandel5 into webgl, plus extra interactivity bonuses. You can click or tap and hold to create new mandels wherever you want and drag them around as they grow to see how it makes things shift. Once you release the pointer it'll freeze in that spot until you reload the page. Currently zooming in and making very small mandels is a bit buggy, but buggy fractals can be interesting too ;)
+
+![Screenshot from 2022-04-02 16-16-14](https://user-images.githubusercontent.com/39782/161404548-bf70c5ad-1edf-4069-8da7-6889ae6a411a.png)
+
