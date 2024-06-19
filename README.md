@@ -1,7 +1,6 @@
 ### What I'm currently working on
-* Procedural sound [fiddlings](https://github.com/jcwilk/sound_formatter)
-  * Going deep down an Enumerator rabbithole as I try to build a sound system with cyclical delays, filters, and channels using lazy enumerators for [everything](https://github.com/jcwilk/sound_formatter/blob/20566330f74cff53e6cbd1720210ae933454e4ab/sound_player.rb#L110)
-  * Currently trying to understand the Enumerator::Lazy [code](https://github.com/ruby/ruby/blob/v2_7_0/enumerator.c#L1668-L2777) so I can figure out why [this](https://gist.github.com/jcwilk/2a03147d2278dcc3283cbb2d466231f5) doesn't work
+* Building tooling around composable LLM conversations in my ![TDI](https://github.com/jcwilk/tdi) project
+* Learning about functional programming and building out some web and testing related infrastructure for it browsable at my Unison Share page - https://share.unison-lang.org/@jcwilk
 * Crypto research
 * Figuring out how to leverage fractals to make games without it being gimmicky (mandel6 currently)
 
