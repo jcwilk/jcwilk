@@ -1,5 +1,5 @@
 ### What I'm currently working on
-* Building tooling around composable LLM conversations in my ![TDI](https://github.com/jcwilk/tdi) project
+* Building tooling around composable LLM conversations in my [TDI](https://github.com/jcwilk/tdi) project
 * Learning about functional programming and building out some web and testing related infrastructure for it browsable at my Unison Share page - https://share.unison-lang.org/@jcwilk
 * Crypto research
 * Figuring out how to leverage fractals to make games without it being gimmicky (mandel6 currently)
