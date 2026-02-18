@@ -1,8 +1,13 @@
-### What I'm currently working on
-* Building tooling around composable LLM conversations in my [TDI](https://github.com/jcwilk/tdi) project
-* Learning about functional programming and building out some web and testing related infrastructure for it browsable at my Unison Share page - https://share.unison-lang.org/@jcwilk
-* Crypto research
-* Figuring out how to leverage fractals to make games without it being gimmicky (mandel6 currently)
+Software engineer with 15 years experience in backend systems, API design, and AI tooling.
+
+Currently: Learning functional languages, exploring and contributing to [Goose](https://github.com/block/goose), and generally building and exploring AI agent tools in this new crazy era.
+
+Previously: Tech lead at Doximity, CTO at Gimmie, Principal Engineer at ReferralCandy, games engineer.
+
+## Recent Work
+- [Tree Driven Interaction](https://github.com/jcwilk/tdi) - AI chat client with tree-oriented conversational navigation
+- [simplekiq](https://github.com/doximity/simplekiq) - Open source sidekiq workflow orchestration library
+- Pico-8 game dev, fractal visualizations, AI automation tools
 
 # List of hobby projects
 Very incomplete, but these are the most fun to play with. I will likely continuously update this list with fancier gifs and more thrilling descriptions.
