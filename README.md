@@ -1,6 +1,6 @@
 Software engineer with 15 years experience in backend systems, API design, and AI tooling.
 
-Currently: Learning functional languages, exploring and contributing to [Goose](https://github.com/block/goose), and generally building and exploring AI agent tools in this new crazy era.
+Currently: Learning functional languages and generally building and exploring AI agent tools in this new crazy era.
 
 Previously: Tech lead at Doximity, CTO at Gimmie, Principal Engineer at ReferralCandy, games engineer.
 
