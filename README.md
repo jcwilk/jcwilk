@@ -1,3 +1,4 @@
+
 **Senior Software Engineer** with **14 years pre-AI experience in Web Architecture, Fullstack, and API design**, and **3 years focused on AI tooling and research**.
 
 *Generally*: Leaning declarative, inferring locally, and building and exploring agentically in this crazy new era.
@@ -9,7 +10,7 @@
 *Currently*:
 ### Home AI Lab
 
-<img width="624" height="832" alt="P_20260726_233959" src="https://github.com/user-attachments/assets/874c408f-f074-42e1-9f1d-9b3a22284b1b" />
+<img width="624" height="832" alt="626970303-874c408f-f074-42e1-9f1d-9b3a22284b1b" src="https://github.com/user-attachments/assets/aefffb7d-a5d2-415e-b845-b06ab7280899" />
 
 * Firecracker-based cattle workstations
 * Task queue orchestrated by Conductor with resource-based admission
@@ -21,7 +22,7 @@
 
 ### AI Tooling Projects
 
-<img width="678" height="631" alt="tdi_jokes_v1_sped_up-2" src="https://github.com/user-attachments/assets/077e0ec0-9208-4d57-97f5-2fc291dfbcf4" />
+<img width="678" height="631" alt="626991869-077e0ec0-9208-4d57-97f5-2fc291dfbcf4" src="https://github.com/user-attachments/assets/a12c327b-9b60-4c49-8d74-6e08864727da" />
 
 - [cursor_tooling](https://github.com/jcwilk/cursor_tooling) - My minimalist yet effective OpenSpec-oriented Cursor tooling, emergent from my [agentic bottleneck findings](https://jcwilk.com/beyond-2x-keeping-agents-in-line-without-reading-every-line/)
 - [giterloper](https://github.com/jcwilk/giterloper) - MCP-oriented agent tooling for a git-backed, versioned Markdown knowledge store
@@ -33,7 +34,7 @@
 
 #### I2S Modular Digital Synth (ESP32-S3 based)
 
-<img width="486" height="648" alt="P_20260701_110023_1" src="https://github.com/user-attachments/assets/8b477f83-bda5-42fe-b7eb-a216b7088cc3" />
+<img width="486" height="648" alt="P_20260701_110023_1" src="https://github.com/user-attachments/assets/85c0170b-e061-49fc-9364-9d22cc45be83" />
 
 * If I'm ever in a post-apocalyptic situation where I need to be able to produce strange sounds at scale I can churn these puppies out 2 hours a pop
 * I2S connection going upstream (left) and downstream (right), full duplex in each connection, forming a 2-way street with the ability to form loops via "u-turns"
